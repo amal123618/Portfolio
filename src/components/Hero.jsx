@@ -1,4 +1,4 @@
-import profile from './amal.jpg'
+const profile = '/assets/images/amal.jpg'
 
 export default function Hero(){
   return (
@@ -9,7 +9,7 @@ export default function Hero(){
         <div className="pill">Python Full Stack Developer</div>
         <p className="subtitle">Building robust backends and elegant UIs</p>
         <div className="btn-row">
-          <a className="btn" href="src/components/AMALJITH KV PYTHON DEVOLOPER.pdf" download>
+          <a className="btn" href="/assets/documents/AMALJITH KV PYTHON DEVOLOPER.pdf" download="AMALJITH_KV_PYTHON_DEVELOPER_CV.pdf">
             Download CV
           </a>
           <a className="btn-secondary" href="#contact">Contact Me</a>

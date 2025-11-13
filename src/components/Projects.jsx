@@ -1,9 +1,16 @@
-import logo from './logo.png'
-
 const data = [
-  {title:'Event based ecommerce platform',desc:'Developed a platform for event organizers to streamline shopping with customizable bundles, themed product suggestions, and guest management tools for events like weddings, parties, and seasonal holidays.',link:'https://eventshop.onrender.com',img:'src/components/J.png'},
-  {title:'Blog app',desc:'Short description of the project highlighting stack and impact.',link:'https://blog-11-2006.onrender.com',img:'src/components/Blogi.jpg'}
-  
+  {
+    title: 'Event based ecommerce platform',
+    desc: 'Developed a platform for event organizers to streamline shopping with customizable bundles, themed product suggestions, and guest management tools for events like weddings, parties, and seasonal holidays.',
+    link: 'https://eventshop.onrender.com',
+    img: '/assets/images/J.png'
+  },
+  {
+    title: 'Blog app',
+    desc: 'Short description of the project highlighting stack and impact.',
+    link: 'https://blog-11-2006.onrender.com',
+    img: '/assets/images/Blogi.jpg'
+  }
 ];
 
 export default function Projects(){
