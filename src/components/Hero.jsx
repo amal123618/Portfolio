@@ -1,0 +1,25 @@
+import profile from './amal.jpg'
+
+export default function Hero(){
+  return (
+    <section className="container hero" id="home">
+      <div>
+        
+        <h1>Hi, I'm <span>Amaljith</span></h1>
+        <div className="pill">Python Full Stack Developer</div>
+        <p className="subtitle">Building robust backends and elegant UIs</p>
+        <div className="btn-row">
+          <a className="btn" href="src/components/AMALJITH KV PYTHON DEVOLOPER.pdf" download>
+            Download CV
+          </a>
+          <a className="btn-secondary" href="#contact">Contact Me</a>
+        </div>
+      </div>
+      <div className="center">
+        <div className="photo">
+          <img src={profile} alt="Profile" />
+        </div>
+      </div>
+    </section>
+  )
+}
