@@ -1,3 +1,4 @@
+import { SiGithub } from 'react-icons/si'
 const profile = '/assets/images/amal.jpg'
 
 export default function Hero(){
@@ -13,6 +14,9 @@ export default function Hero(){
             Download CV
           </a>
           <a className="btn-secondary" href="#contact">Contact Me</a>
+          <a className="btn-secondary" href="https://github.com/amal123618" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <SiGithub /> GitHub
+          </a>
         </div>
       </div>
       <div className="center">

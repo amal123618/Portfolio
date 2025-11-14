@@ -25,7 +25,11 @@ export default function Projects(){
               <div>
                 <h3>{p.title}</h3>
                 <p>{p.desc}</p>
-                <p><a href={p.link} target="_blank" rel="noopener noreferrer">View</a></p>
+                <div className="project-actions">
+                  <a className="btn-primary" href={p.link} target="_blank" rel="noopener noreferrer" aria-label={`View ${p.title}`}>
+                    View project
+                  </a>
+                </div>
               </div>
             </div>
           ))}

@@ -4,7 +4,7 @@ export default function Footer(){
   return (
     <footer className="footer">
       <div className="container footer-inner">
-        <div className="brand">Amal<span>jith</span></div>
+        <div className="copyright">© Amaljith KV</div>
         <nav className="socials">
           <a href="https://www.linkedin.com/in/amaljith-kv/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <SiLinkedin />
