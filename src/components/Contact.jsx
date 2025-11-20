@@ -90,9 +90,18 @@ export default function Contact() {
     <section className="section" id="contact">
       <div className="container">
         <div className="surface contact-grid">
-          <h2 className="heading-xl">Get in touch</h2>
-          <p className="lead muted-light">I usually respond within a day. Share a few details and I'll get back to you.</p>
-          <form className="form-stack" onSubmit={onSubmit} ref={formRef}>
+          <div className="contact-layout">
+            <div className="contact-info">
+              <h2 className="heading-xl">Get in touch</h2>
+              <p className="lead muted-light">I usually respond within a day. Share a few details and I'll get back to you.</p>
+              <div className="contact-details">
+                <p>Email: <a href="mailto:amaljithkuvakkatt@gmail.com">amaljithkuvakkatt@gmail.com</a></p>
+                <p>Phone: <a href="tel:+917994773594">+91 79947 73594</a></p>
+                <p>WhatsApp: <a href="https://wa.me/917994773594" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a></p>
+              </div>
+            </div>
+            <div className="contact-form">
+              <form className="form-stack" onSubmit={onSubmit} ref={formRef}>
             <div className="form-group">
               <div className="input-wrapper">
                 <input
@@ -170,6 +179,8 @@ export default function Contact() {
               )}
             </button>
           </form>
+            </div>
+          </div>
         </div>
       </div>
     </section>
